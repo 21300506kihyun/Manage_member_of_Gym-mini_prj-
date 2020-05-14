@@ -175,8 +175,8 @@ void stat_age(int *count_age, NODE* head){
 			else
 				member_age++;
 		}
-		count++;
-		total_age += member_age; //나이의 평균값 구하기
+		//count++;
+		//total_age += member_age; //나이의 평균값 구하기
 
 		member_age = member_age/10;
 		switch(member_age){
